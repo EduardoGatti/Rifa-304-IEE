@@ -1,0 +1,83 @@
+/* Estilos principais */
+.app-container {
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 24px;
+  color: #D1005B;
+}
+
+.login-btn {
+  background-color: #D1005B;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.comprado {
+  background-color: lightgreen;
+}
+
+.admin-container {
+  margin-top: 20px;
+}
+
+.admin-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.roleta-container {
+  text-align: center;
+}
+
+.roleta-numero {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #ff9800;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f57c00;
+}
+
+.tabela-container {
+  margin-top: 20px;
+}
+
+.tabela-titulo {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}

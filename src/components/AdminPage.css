@@ -1,0 +1,176 @@
+body {
+    background-color: #FFC0CB;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #D1005B;
+  }
+  
+  .admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .admin-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #D1005B;
+  }
+  
+  .roleta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 350px;
+  }
+  
+  .roleta-numero {
+    font-size: 50px;
+    font-weight: bold;
+    color: #D1005B;
+    text-shadow: 2px 2px 5px white;
+  }
+  
+  .botao-girar {
+    background: #FFC0CB;
+    color: #D1005B;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px 8px rgba(209, 0, 91, 0.5);
+  }
+  
+  .botao-girar:hover {
+    background: white;
+    color: #D1005B;
+    border: 2px solid #D1005B;
+    box-shadow: 2px 2px 12px rgba(209, 0, 91, 0.8);
+  }
+  
+  .tabela-container {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 350px;
+    overflow-x: auto; /* Permite rolar horizontalmente */
+  }
+  
+  .tabela-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #D1005B;
+  }
+  
+  .tabela {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed; /* Adiciona layout fixo para a tabela */
+  }
+  
+  .tabela td {
+    border: 1px solid #D1005B;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #D1005B;
+    transition: 0.3s;
+    width: 20%;
+    word-wrap: break-word; /* Quebra palavras longas */
+  }
+  
+  .tabela td:hover {
+    background-color: #D1005B;
+    color: white;
+  }
+  
+  .tabela td.comprado {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  .botao-editar,
+  .botao-cancelar {
+    background: #FFC0CB;
+    color: #D1005B;
+    border: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 8px rgba(209, 0, 91, 0.5);
+  }
+  
+  .botao-editar:hover,
+  .botao-cancelar:hover {
+    background: white;
+    color: #D1005B;
+    border: 2px solid #D1005B;
+    box-shadow: 2px 2px 12px rgba(209, 0, 91, 0.8);
+  }
+  
+  .admin-container h2,
+  .admin-container h1 {
+    color: #D1005B;
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+    .roleta-container,
+    .tabela-container {
+      max-width: 90%;
+      padding: 12px;
+    }
+  
+    .roleta-numero {
+      font-size: 40px;
+    }
+  
+    .botao-girar {
+      font-size: 14px;
+      padding: 10px 18px;
+    }
+  
+    .tabela td {
+      font-size: 14px;
+      padding: 8px;
+      width: auto; /* Ajusta a largura das células */
+    }
+  
+    .tabela-container {
+      padding: 10px;
+    }
+  
+    /* Estilos específicos para a tabela em telas pequenas */
+    .tabela {
+      width: 100%;
+      font-size: 12px;  /* Ajusta o tamanho da fonte para telas pequenas */
+    }
+  
+    .tabela td {
+      padding: 8px;
+    }
+  }
+  
