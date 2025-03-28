@@ -3,7 +3,7 @@ import React from "react";
 function PublicTable({ numeros }) {
   return (
     <div className="container">
-      <h2 className="tabela-titulo">Tabela Pública da Rifa</h2>
+      <h2 className="tabela-titulo">Relatório da Rifa 304 IEE</h2>
       <table className="tabela">
         <tbody>
           {Array.from({ length: Math.ceil(numeros.length / 5) }, (_, rowIndex) => (
