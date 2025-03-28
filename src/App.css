@@ -27,7 +27,7 @@
 }
 
 .tabela {
-  width: 80%;
+  width: 500px;
   border-collapse: collapse;
   diplay: flex;
   justify-content: center;
