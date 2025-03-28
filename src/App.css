@@ -29,6 +29,9 @@
 .tabela {
   width: 80%;
   border-collapse: collapse;
+  diplay: flex;
+  justify-content: center;
+  aling-itens: center;
 }
 
 .tabela td {
